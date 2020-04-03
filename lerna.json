@@ -1,8 +1,8 @@
 {
-  "packages": [
-    "packages/*"
-  ],
+
   "version": "3.9.1-snapshot.0",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
   "command": {
     "version": {
       "push": true

@@ -4,6 +4,13 @@
   "workspaces": [
     "packages/*"
   ],
+  "repository": {
+    "type" : "git",
+    "url": "ssh://git@github.com/rohmanhm/react-icons.git"
+  },
+  "publishConfig": {
+    "registry":"https://npm.fury.io/rohmanhm"
+  },
   "license": "MIT",
   "devDependencies": {
     "babel-eslint": "^10.0.3",

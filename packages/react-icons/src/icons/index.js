@@ -260,7 +260,7 @@ module.exports = {
       name: "Remix Icon",
       contents: [
         {
-          files: path.resolve(__dirname, "RemixIcon/icons/*/*-line.svg"),
+          files: path.resolve(__dirname, "RemixIcon/icons/*/*.svg"),
           formatter: name => `Ri${name}`
         }
       ],

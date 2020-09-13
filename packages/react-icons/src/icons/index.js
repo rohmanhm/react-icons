@@ -268,7 +268,7 @@ module.exports = {
           formatter: name => `Ri${name}`
         },
         {
-          files: path.resolve(__dirname, "RemixIcon/icons/Editor/*-line.svg"),
+          files: path.resolve(__dirname, "RemixIcon/icons/Editor/*.svg"),
           formatter: name => `RiEditor${name}`
         }
       ],

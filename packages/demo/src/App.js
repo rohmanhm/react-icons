@@ -2,11 +2,11 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
-import { IconContext } from "react-icons";
-import { FaFolder } from "react-icons/fa";
-import { MdAccessibility } from "react-icons/md";
-import { TiArrowDown } from "react-icons/ti";
-import { GrGrommet } from "react-icons/gr";
+import { IconContext } from "@rohmanhm/react-icons";
+import { FaFolder } from "@rohmanhm/react-icons/fa";
+import { MdAccessibility } from "@rohmanhm/react-icons/md";
+import { TiArrowDown } from "@rohmanhm/react-icons/ti";
+import { GrGrommet } from "@rohmanhm/react-icons/gr";
 
 class App extends Component {
   render() {
@@ -22,7 +22,7 @@ class App extends Component {
             value={{
               color: "blue",
               className: "global-class-name",
-              attr: { focusable: "false" }
+              attr: { focusable: "false" },
             }}
           >
             <MdAccessibility />

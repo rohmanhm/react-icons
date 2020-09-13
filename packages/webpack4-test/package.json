@@ -14,6 +14,6 @@
     "webpack-cli": "^3.3.2"
   },
   "dependencies": {
-    "react-icons": "^3.12.0"
+    "@rohmanhm/react-icons": "^3.12.0"
   }
 }

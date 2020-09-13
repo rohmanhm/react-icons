@@ -1,5 +1,5 @@
 {
-  "name": "react-icons-root",
+  "name": "@rohmanhm/react-icons-root",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -7,9 +7,6 @@
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com/rohmanhm/react-icons.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "license": "MIT",
   "devDependencies": {

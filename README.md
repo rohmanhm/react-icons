@@ -12,54 +12,61 @@ Include popular icons in your React projects easily with `react-icons`, which ut
 ## Installation
 
 ### Yarn
+
 ```bash
-yarn add react-icons
+yarn add @rohmanhm/react-icons
 ```
 
 ### NPM
+
 ```bash
-npm install react-icons --save
+npm install @rohmanhm/react-icons --save
 ```
 
 ## Usage
 
 ```jsx
-import { FaBeer } from 'react-icons/fa';
+import { FaBeer } from "@rohmanhm/react-icons/fa";
 
 class Question extends React.Component {
-    render() {
-        return <h3> Lets go for a <FaBeer />? </h3>
-    }
+  render() {
+    return (
+      <h3>
+        {" "}
+        Lets go for a <FaBeer />?{" "}
+      </h3>
+    );
+  }
 }
 ```
 
-[View the documentation](https://react-icons.github.io/react-icons) for further usage examples and how to use icons from other packages. *NOTE*: each Icon package has it's own subfolder under `react-icons` you import from.
+[View the documentation](https://react-icons.github.io/react-icons) for further usage examples and how to use icons from other packages. _NOTE_: each Icon package has it's own subfolder under `react-icons` you import from.
 
-For example, to use an icon from **Material Design**, your import would be: `import { ICON_NAME } from 'react-icons/md';`
+For example, to use an icon from **Material Design**, your import would be: `import { ICON_NAME } from '@rohmanhm/react-icons/md';`
 
 ## Icons
 
-Icon Library|License|Version
----|---|---
-[Font Awesome](https://fontawesome.com/)|[CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)|5.12.1
-[Ionicons](https://ionicons.com/)|[MIT](https://github.com/ionic-team/ionicons/blob/master/LICENSE)|4.5.6
-[Material Design icons](http://google.github.io/material-design-icons/)|[Apache License Version 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE)|3.0.1
-[Typicons](http://s-ings.com/typicons/)|[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)|2.0.9
-[Github Octicons icons](https://octicons.github.com/)|[MIT](https://github.com/primer/octicons/blob/master/LICENSE)|8.5.0
-[Feather](https://feathericons.com/)|[MIT](https://github.com/feathericons/feather/blob/master/LICENSE)|4.21.0
-[Game Icons](https://game-icons.net/)|[CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)|a53463d41d4f055fa71097ae74da4c508c9bb09d
-[Weather Icons](https://erikflowers.github.io/weather-icons/)|[SIL OFL 1.1](http://scripts.sil.org/OFL)|2.0.10
-[Devicons](https://vorillaz.github.io/devicons/)|[MIT](https://opensource.org/licenses/MIT)|1.8.0
-[Ant Design Icons](https://github.com/ant-design/ant-design-icons)|[MIT](https://opensource.org/licenses/MIT)|4.0.0
-[Bootstrap Icons](https://github.com/twbs/icons)|[MIT](https://opensource.org/licenses/MIT)|1.0.0-alpha3
-[Remix Icon](https://github.com/Remix-Design/RemixIcon)|[Apache License Version 2.0](http://www.apache.org/licenses/)|2.3.0
-[Flat Color Icons](https://github.com/icons8/flat-color-icons)|[MIT](https://opensource.org/licenses/MIT)|1.0.2
-[Grommet-Icons](https://github.com/grommet/grommet-icons)|[Apache License Version 2.0](http://www.apache.org/licenses/)|4.4.0
-[Simple Icons](https://simpleicons.org/)|[CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)|2.13.0
-[IcoMoon Free](https://github.com/Keyamoon/IcoMoon-Free)|[CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)|1.0.0
-[BoxIcons](https://github.com/atisawd/boxicons)|[CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)|2.0.5
-[css.gg](https://github.com/astrit/css.gg)|[MIT](https://opensource.org/licenses/MIT)|2.0.0
-[VS Code Icons](https://github.com/microsoft/vscode-codicons)|[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)|0.0.1
+| Icon Library                                                            | License                                                                                           | Version                                  |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| [Font Awesome](https://fontawesome.com/)                                | [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)                                 | 5.12.1                                   |
+| [Ionicons](https://ionicons.com/)                                       | [MIT](https://github.com/ionic-team/ionicons/blob/master/LICENSE)                                 | 4.5.6                                    |
+| [Material Design icons](http://google.github.io/material-design-icons/) | [Apache License Version 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE) | 3.0.1                                    |
+| [Typicons](http://s-ings.com/typicons/)                                 | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)                                   | 2.0.9                                    |
+| [Github Octicons icons](https://octicons.github.com/)                   | [MIT](https://github.com/primer/octicons/blob/master/LICENSE)                                     | 8.5.0                                    |
+| [Feather](https://feathericons.com/)                                    | [MIT](https://github.com/feathericons/feather/blob/master/LICENSE)                                | 4.21.0                                   |
+| [Game Icons](https://game-icons.net/)                                   | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)                                         | a53463d41d4f055fa71097ae74da4c508c9bb09d |
+| [Weather Icons](https://erikflowers.github.io/weather-icons/)           | [SIL OFL 1.1](http://scripts.sil.org/OFL)                                                         | 2.0.10                                   |
+| [Devicons](https://vorillaz.github.io/devicons/)                        | [MIT](https://opensource.org/licenses/MIT)                                                        | 1.8.0                                    |
+| [Ant Design Icons](https://github.com/ant-design/ant-design-icons)      | [MIT](https://opensource.org/licenses/MIT)                                                        | 4.0.0                                    |
+| [Bootstrap Icons](https://github.com/twbs/icons)                        | [MIT](https://opensource.org/licenses/MIT)                                                        | 1.0.0-alpha3                             |
+| [Remix Icon](https://github.com/Remix-Design/RemixIcon)                 | [Apache License Version 2.0](http://www.apache.org/licenses/)                                     | 2.3.0                                    |
+| [Flat Color Icons](https://github.com/icons8/flat-color-icons)          | [MIT](https://opensource.org/licenses/MIT)                                                        | 1.0.2                                    |
+| [Grommet-Icons](https://github.com/grommet/grommet-icons)               | [Apache License Version 2.0](http://www.apache.org/licenses/)                                     | 4.4.0                                    |
+| [Simple Icons](https://simpleicons.org/)                                | [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)                           | 2.13.0                                   |
+| [IcoMoon Free](https://github.com/Keyamoon/IcoMoon-Free)                | [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)                                 | 1.0.0                                    |
+| [BoxIcons](https://github.com/atisawd/boxicons)                         | [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)                                 | 2.0.5                                    |
+| [css.gg](https://github.com/astrit/css.gg)                              | [MIT](https://opensource.org/licenses/MIT)                                                        | 2.0.0                                    |
+| [VS Code Icons](https://github.com/microsoft/vscode-codicons)           | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)                                         | 0.0.1                                    |
 
 You can add more icons by submitting pull requests or creating issues.
 
@@ -70,22 +77,22 @@ You can configure react-icons props using [React Context API](https://reactjs.or
 _Requires **React 16.3** or higher._
 
 ```jsx
-import { IconContext } from "react-icons";
+import { IconContext } from "@rohmanhm/react-icons";
 
 <IconContext.Provider value={{ color: "blue", className: "global-class-name" }}>
   <div>
     <FaFolder />
   </div>
-</IconContext.Provider>
+</IconContext.Provider>;
 ```
 
-| Key         | Default               | Notes                           |
-| ----------- | --------------------- | ------------------------------- |
-| `color`     | `undefined` (inherit) |                                 |
-| `size`      | `1em`                 |                                 |
-| `className` | `undefined`           |                                 |
-| `style`     | `undefined`           | Can overwrite size and color    |
-| `attr`      | `undefined`           | Overwritten by other attributes |
+| Key         | Default               | Notes                              |
+| ----------- | --------------------- | ---------------------------------- |
+| `color`     | `undefined` (inherit) |                                    |
+| `size`      | `1em`                 |                                    |
+| `className` | `undefined`           |                                    |
+| `style`     | `undefined`           | Can overwrite size and color       |
+| `attr`      | `undefined`           | Overwritten by other attributes    |
 | `title`     | `undefined`           | Icon description for accessibility |
 
 ## Migrating from version 2 -> 3
@@ -96,27 +103,37 @@ Import path has changed. You need to rewrite from the old style.
 
 ```jsx
 // OLD IMPORT STYLE
-import FaBeer from 'react-icons/lib/fa/beer';
+import FaBeer from "@rohmanhm/react-icons/lib/fa/beer";
 
 class Question extends React.Component {
-    render() {
-        return <h3> Lets go for a <FaBeer />? </h3>
-    }
+  render() {
+    return (
+      <h3>
+        {" "}
+        Lets go for a <FaBeer />?{" "}
+      </h3>
+    );
+  }
 }
 ```
 
 ```jsx
 // NEW IMPORT STYLE
-import { FaBeer } from 'react-icons/fa';
+import { FaBeer } from "@rohmanhm/react-icons/fa";
 
 class Question extends React.Component {
-    render() {
-        return <h3> Lets go for a <FaBeer />? </h3>
-    }
+  render() {
+    return (
+      <h3>
+        {" "}
+        Lets go for a <FaBeer />?{" "}
+      </h3>
+    );
+  }
 }
 ```
 
-Ending up with a large JS bundle? Check out [this issue](https://github.com/react-icons/react-icons/issues/154).
+Ending up with a large JS bundle? Check out [this issue](https://github.com/rohmanhm/react-icons/issues/154).
 
 ### Adjustment CSS
 
@@ -133,7 +150,7 @@ From version 3, `vertical-align: middle` is not automatically given. Please use 
 Component
 
 ```tsx
-<IconContext.Provider value={{ className: 'react-icons' }}>
+<IconContext.Provider value={{ className: '@rohmanhm/react-icons' }}>
 ```
 
 CSS
@@ -149,11 +166,13 @@ CSS
 Dependencies on `@types/react-icons` can be deleted.
 
 #### Yarn
+
 ```bash
 yarn remove @types/react-icons
 ```
 
 #### NPM
+
 ```bash
 npm remove @types/react-icons
 ```
@@ -170,6 +189,7 @@ yarn build
 ```
 
 ### Preview
+
 The preview site is the [`react-icons`](https://react-icons.github.io/react-icons) website, built in [NextJS](https://nextjs.org/).
 
 ```bash
@@ -181,6 +201,7 @@ yarn start
 ```
 
 ### Demo
+
 The demo is a [Create React App](https://create-react-app.dev/) boilerplate with `react-icons` added as a dependency for easy testing.
 
 ```bash

@@ -22,7 +22,7 @@ export default function HomePage() {
 
       <h2>More info</h2>
       <p>
-        <a href="https://github.com/react-icons/react-icons">GitHub &#8599;</a>
+        <a href="https://github.com/rohmanhm/react-icons">GitHub &#8599;</a>
       </p>
     </Container>
   );

@@ -1,6 +1,6 @@
 <img src="https://rawgit.com/gorangajic/react-icons/master/react-icons.svg" width="120" alt="React Icons">
 
-# [React Icons](https://react-icons.netlify.com)
+# [React Icons](https://react-icons.github.io/react-icons)
 
 [![npm][npm-image]][npm-url]
 
@@ -33,26 +33,33 @@ class Question extends React.Component {
 }
 ```
 
-[View the documentation](https://react-icons.netlify.com) for further usage examples and how to use icons from other packages. *NOTE*: each Icon package has it's own subfolder under `react-icons` you import from.
+[View the documentation](https://react-icons.github.io/react-icons) for further usage examples and how to use icons from other packages. *NOTE*: each Icon package has it's own subfolder under `react-icons` you import from.
 
 For example, to use an icon from **Material Design**, your import would be: `import { ICON_NAME } from 'react-icons/md';`
 
 ## Icons
 
-| Icon Library                                                  | License                                                                                   |
-| ------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| [Ant Design Icons](https://ant.design/components/icon/)       | [MIT](https://github.com/ant-design/ant-design-icons/blob/master/LICENSE)                 |
-| [Bootstrap Icons](https://icons.getbootstrap.com/)            | [MIT](https://github.com/twbs/icons/blob/master/LICENSE.md)                               |
-| [Devicon](https://konpa.github.io/devicon/)                   | [MIT](https://github.com/konpa/devicon/blob/master/LICENSE)                               |
-| [Feather](https://feathericons.com/)                          | [MIT](https://github.com/feathericons/feather/blob/master/LICENSE)                        |
-| [Font Awesome](https://fontawesome.com/)                      | [CC BY 4.0 License](https://github.com/FortAwesome/Font-Awesome/blob/master/LICENSE.txt)  |
-| [Game Icons](https://game-icons.net/)                         | [CC BY 3.0](https://github.com/game-icons/icons/blob/master/license.txt)                  |
-| [Github Octicons](https://octicons.github.com/)               | [MIT](https://github.com/primer/octicons/blob/master/LICENSE)                             |
-| [Ionicons](https://ionicons.com/)                             | [MIT](https://github.com/ionic-team/ionicons/blob/master/LICENSE)                         |
-| [Material Design](https://material.io/resources/icons/)       | [Apache License 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE) |
-| [Remix Icon](https://remixicon.com/)                          | [Apache License 2.0](https://github.com/Remix-Design/RemixIcon/blob/master/License)       |
-| [Typicons](http://s-ings.com/typicons/)                       | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)                           |
-| [Weather Icons](https://erikflowers.github.io/weather-icons/) | [SIL OFL 1.1](http://scripts.sil.org/OFL)                                                 |
+Icon Library|License|Version
+---|---|---
+[Font Awesome](https://fontawesome.com/)|[CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)|5.12.1
+[Ionicons](https://ionicons.com/)|[MIT](https://github.com/ionic-team/ionicons/blob/master/LICENSE)|4.5.6
+[Material Design icons](http://google.github.io/material-design-icons/)|[Apache License Version 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE)|3.0.1
+[Typicons](http://s-ings.com/typicons/)|[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)|2.0.9
+[Github Octicons icons](https://octicons.github.com/)|[MIT](https://github.com/primer/octicons/blob/master/LICENSE)|8.5.0
+[Feather](https://feathericons.com/)|[MIT](https://github.com/feathericons/feather/blob/master/LICENSE)|4.21.0
+[Game Icons](https://game-icons.net/)|[CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)|a53463d41d4f055fa71097ae74da4c508c9bb09d
+[Weather Icons](https://erikflowers.github.io/weather-icons/)|[SIL OFL 1.1](http://scripts.sil.org/OFL)|2.0.10
+[Devicons](https://vorillaz.github.io/devicons/)|[MIT](https://opensource.org/licenses/MIT)|1.8.0
+[Ant Design Icons](https://github.com/ant-design/ant-design-icons)|[MIT](https://opensource.org/licenses/MIT)|4.0.0
+[Bootstrap Icons](https://github.com/twbs/icons)|[MIT](https://opensource.org/licenses/MIT)|1.0.0-alpha3
+[Remix Icon](https://github.com/Remix-Design/RemixIcon)|[Apache License Version 2.0](http://www.apache.org/licenses/)|2.3.0
+[Flat Color Icons](https://github.com/icons8/flat-color-icons)|[MIT](https://opensource.org/licenses/MIT)|1.0.2
+[Grommet-Icons](https://github.com/grommet/grommet-icons)|[Apache License Version 2.0](http://www.apache.org/licenses/)|4.4.0
+[Simple Icons](https://simpleicons.org/)|[CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)|2.13.0
+[IcoMoon Free](https://github.com/Keyamoon/IcoMoon-Free)|[CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)|1.0.0
+[BoxIcons](https://github.com/atisawd/boxicons)|[CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)|2.0.5
+[css.gg](https://github.com/astrit/css.gg)|[MIT](https://opensource.org/licenses/MIT)|2.0.0
+[VS Code Icons](https://github.com/microsoft/vscode-codicons)|[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)|0.0.1
 
 You can add more icons by submitting pull requests or creating issues.
 
@@ -79,6 +86,7 @@ import { IconContext } from "react-icons";
 | `className` | `undefined`           |                                 |
 | `style`     | `undefined`           | Can overwrite size and color    |
 | `attr`      | `undefined`           | Overwritten by other attributes |
+| `title`     | `undefined`           | Icon description for accessibility |
 
 ## Migrating from version 2 -> 3
 
@@ -162,7 +170,7 @@ yarn build
 ```
 
 ### Preview
-The preview site is the [`react-icons`](https://react-icons.netlify.com/) website, built in [NextJS](https://nextjs.org/).
+The preview site is the [`react-icons`](https://react-icons.github.io/react-icons) website, built in [NextJS](https://nextjs.org/).
 
 ```bash
 cd packages/react-icons

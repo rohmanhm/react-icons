@@ -55,7 +55,7 @@
     "prebuild": "node ../../node_modules/copy/bin/cli.js ../../README.md ./packages/react-icons && rimraf ./lib",
     "build-mjs": "tsc && babel ./lib/esm -d ./lib/esm",
     "build-cjs": "tsc -p ./tsconfig.commonjs.json",
-    "clean": "rm -rf lib index.d.ts index.esm.js index.js all.js all.d.ts fa/ io/ md/ ti/ go/ fi/ gi/ wi/ di/ ai/ bs/ ri/ README.md"
+    "clean": "rm -rf lib index.d.ts index.esm.js index.js all.js all.d.ts fa/ io/ md/ ti/ go/ fi/ gi/ wi/ di/ ai/ bs/ ri/ README.md vsc/ bi/ cg/ fc/ gr/ hi/ im/ si/"
   },
   "dependencies": {
     "camelcase": "^5.0.0"

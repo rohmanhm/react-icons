@@ -260,12 +260,16 @@ module.exports = {
       name: "Remix Icon",
       contents: [
         {
-          files: path.resolve(__dirname, "RemixIcon/icons/*/*.svg"),
+          files: path.resolve(__dirname, "RemixIcon/icons/*/*-line.svg"),
           formatter: name => `Ri${name}`
         },
         {
           files: path.resolve(__dirname, "RemixIcon/icons/*/*-fill.svg"),
           formatter: name => `Ri${name}`
+        },
+        {
+          files: path.resolve(__dirname, "RemixIcon/icons/Editor/*-line.svg"),
+          formatter: name => `RiEditor${name}`
         }
       ],
       projectUrl: "https://github.com/Remix-Design/RemixIcon",
@@ -339,7 +343,7 @@ module.exports = {
         }
       ],
       projectUrl: "https://github.com/Keyamoon/IcoMoon-Free",
-      license: "CC BY 4.0 License",
+      license: "CC BY 4.0 License"
     },
     {
       id: "bi",
@@ -351,7 +355,7 @@ module.exports = {
         }
       ],
       projectUrl: "https://github.com/atisawd/boxicons",
-      license: "CC BY 4.0 License",
+      license: "CC BY 4.0 License"
     },
     {
       id: "cg",

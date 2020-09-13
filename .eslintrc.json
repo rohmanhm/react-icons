@@ -1,20 +1,20 @@
 {
   "parser": "babel-eslint",
-  "extends": [
-    "standard",
-    "prettier",
-    "prettier/react",
-    "prettier/standard"
-  ],
+  "extends": ["standard", "prettier", "prettier/react", "prettier/standard"],
   "env": {
     "jest": true,
     "browser": true
   },
-  "plugins": [
-    "prettier"
-  ],
+  "plugins": ["prettier"],
   "rules": {
-    "prettier/prettier": "error",
-    "no-unused-vars":"warn"
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": false,
+        "trailingComma": "none",
+        "arrowParens": "avoid"
+      }
+    ],
+    "no-unused-vars": "warn"
   }
 }

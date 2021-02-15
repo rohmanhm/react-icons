@@ -22,12 +22,12 @@ export default function HomePage() {
 
       <h2>Installation (for meteorjs, gatsbyjs, etc)</h2>
       <p>
-        If your project grows in size, this option is available.
-        This method has the trade-off that it takes a long time to install the package.
-        Suitable for MeteorJS, Gatsbyjs etc.
+        If your project grows in size, this option is available. This method has
+        the trade-off that it takes a long time to install the package. Suitable
+        for MeteorJS, Gatsbyjs etc.
       </p>
-      <CodeBlock code={`npm install @react-icons/all-files --save`} />
-      
+      <CodeBlock code={`npm install @rohmanhm/react-icons-all-files --save`} />
+
       <h3>Usage</h3>
       <CodeBlock code={HOME_USAGE_ALL} />
 
